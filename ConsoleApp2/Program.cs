@@ -18,7 +18,7 @@ namespace ConsoleApp1
                 numeros[i] = rnd.Next(10, 99 + 1);
             }
             string todos=string.Join(",", numeros);
-            Console.WriteLine($"Numeros{ todos}");
+            Console.WriteLine($"Numeros { todos}");
         }
     }
 }
